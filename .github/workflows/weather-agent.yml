@@ -23,7 +23,6 @@ jobs:
         run: python weather.py
       - name: Commit updated data
         run: |
-          git pull --rebase
           git config user.name "Weather Agent"
           git config user.email "actions@github.com"
           git add historical_weather.csv forecast_weather.csv
