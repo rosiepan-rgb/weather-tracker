@@ -2,8 +2,6 @@ import requests
 import pandas as pd
 from datetime import date
 
-git pull --rebase
-
 # My camping location
 LATITUDE = 36.0566
 LONGITUDE = -112.1251
